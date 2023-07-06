@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 *{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif,'Dancing Script';
+    ;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -51,13 +54,13 @@ html {
     }
 
     &::-webkit-scrollbar-thumb{
-        background: #000000;
+        background: #0e0101;
         border-radius: 5rem;
     }
 }
 
 body {
-    background: rgb(37, 54, 16);
+    background: #123142;
     background-attachment: fixed;
     background-position: center;
     overflow-x: hidden;
@@ -203,6 +206,35 @@ section{
     }
 }
 
+.hdg img{
+    width: 100%;
+}
+
+.container-fluid{
+    .card{
+        background-color: #123142;
+        border: none;
+    }
+
+    h5{
+        color: white;
+        font-size: 25px;
+    }
+
+    p{
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 15px;
+    }
+
+    .btn{
+        background-color: #123142;
+        color: lawngreen;
+    }
+}
+.btn{
+--bs-btn-hover-border-color: $amarillo
+}
+
 .servicio{
 
     @include grid(31rem);
@@ -230,6 +262,43 @@ section{
             @include grap-text(1.5rem);
         }
     }
+}
+
+#index-section-4{
+    background: url(../img/hbom.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#index-section-4 h3{
+    font-family: 'Raleway', sans-serif,'Dancing Script';
+    font-weight: 700;
+    font-size: 7rem;
+    color: $blanco;
+}
+
+#index-section-5{
+    background: url(../img/imgggg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#index-section-5 h3{
+    font-family: 'Raleway', sans-serif,'Dancing Script';
+    font-weight: 700;
+    font-size: 7rem;
+    color: $blanco;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vh-100 {
+    min-height: 100vh;
+    height: 100vh;
 }
 
 
@@ -472,7 +541,7 @@ section{
                         }
 
                         &:hover {
-                            color: $amarillo;
+                            color: #123142;
                         }
                     }
                 }
@@ -541,18 +610,63 @@ section{
 
 /*Mobile*/
 
-@media  (max-width:754px) {
+@media  (max-width:546px) {
 
     html{
         font-size: 55%;
+    }
+
+    .home .contenido h3{
+        font-size: 3rem;
+    }
+
+    .icons-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .logo img{
+        width: 50px;
+        height: 50px;
     }
 
     .header {
         padding: 3rem;
     }
 
+    .rws .box-container{
+        gap: 1px;
+    }
+
+    .about .content .icons{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn{
+        display: grid;
+    }
+
+    .stars{
+        display: flex;
+    }
+
+    .blogs .box-container .box .contenido p {
+        font-size: 1rem;
+    }
+
+    .about .content p{
+        font-size: 1rem;
+    }
+
     section{
         padding: 3rem 2rem;
+    }
+
+    .header .icons {
+        font-size: 2rem;
+        margin-top: 2rem;
     }
 
     .header{
@@ -590,17 +704,4 @@ section{
         }
     }
 }
-
-@media (max-width:754px){
-    .home .contenido h3{
-        font-size: 3rem;
-    }
-}
-
-@media (max-width:754px) {
-    html{
-        font-size: 55%;
-    }
-}
-
 

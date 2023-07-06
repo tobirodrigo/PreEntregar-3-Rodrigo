@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <meta name="description" content="La mejor hamburguesa la encontras aca, ingredientes 100% naturales">
+    <meta name="keywords" content="hamburguesa, hamburgueseria, duki, temperley, monte grande, caballito">
     <title>Document</title>
 </head>
 
@@ -20,18 +24,22 @@
         <div id="search-btn" class="fas fa-search icons"></div>
 
         <nav class="navbar">
-            <a href="#">Inicio</a>
-            <a href="#">Menu</a>
-            <a href="#">Contacto</a>
-            <span class="#"></span>
-            <a href="#">Reseñas</a>
-            <a href="#">Sobre Nosotros</a>
-            <a href="#">Blogs</a>
+
+            <a href="#home">Inicio</a>
+            <a href="#menu">Menu</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <span class="#"></span>
+
+        <nav class="navbar">
+            <a href="#rws">Reseñas</a>
+            <a href="#about">Destacado</a>
+            <a href="#blogs">Sucursales</a>
         </nav>
 
         <a href="#" class="fas fa-shopping-cart icons"></a>
 
-        <a href="#" class="logo"><img src="./img/icon (1).png" alt=""></a>
+        <a href="#" class="logo"><img src="./img/icon.png" alt=""></a>
 
         <form action="" class="search-form">
             <input type="search" name="" placeholder="Buscar Aqui" id="search-box">
@@ -47,8 +55,8 @@
 
         <div class="contenido">
             <img data-aos="fade-up" data-aos-delay="150" src="./img/icon.png" alt="">
-            <h3 data-aos="fade-up" data-aos-delay="300">Grand keto ssj</h3>
-            <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem modi perspiciatis in asperiores a non.</p>
+            <h3 data-aos="fade-up" data-aos-delay="300">Las mejores y mas grandes</h3>
+            <p data-aos="fade-up" data-aos-delay="450"> Acompañando tu paladar desde 2014</p>
             <a data-aos="fade-up" data-aos-delay="600" href="#menu" class="btn">Nuestro menu</a>
         </div>
 
@@ -79,111 +87,115 @@
     <!--Servicios end-->
 
     <!--menu init-->
+    <section id="index-section-4" class="vh-100 flex-center">
+            <h3>MENU</h3>  
+    </section>
+
     <section class="menu" id="menu">
+        <div class="container-fluid">
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/hamb1.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty hulk</h5>
+                            <p class="card-text">Nueva Hulk con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="heading">
-            <img src="./img/menu.png" alt="">
-            <h3>Nuestro menu</h3>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/hamb1.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty iron</h5>
+                            <p class="card-text">Nueva iron con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/hamb2.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty widow</h5>
+                            <p class="card-text">Nueva widow con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/hamb3.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty thor</h5>
+                            <p class="card-text">Nueva thor con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/x33.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty hulk</h5>
+                            <p class="card-text">Nueva Hulk con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/hamb5.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty hulk</h5>
+                            <p class="card-text">Nueva Hulk con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/cuart.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty hulk</h5>
+                            <p class="card-text">Nueva Hulk con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/lechu.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty hulk</h5>
+                            <p class="card-text">Nueva Hulk con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img data-aos="fade-up" data-aos-delay="150" src="./img/dob.jpeg" alt="" class="card-img-top">
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="150">
+                            <h5 class="card-title">Grand tasty hulk</h5>
+                            <p class="card-text">Nueva Hulk con 7 carnes y muchisimo Cheddar.</p>
+                            <a href="#" class="btn btn-primary">Pedir ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <div class="box-container">
-
-            <div class="box" data-aos="fade-up" data-aos-delay="150">
-                <img src="./img/hamb4.jpg" alt="">
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Duketo burger</h3>
-                    <div class="price">$1.500</div>
-                    <a href="#" class="btn">Pedir</a>
-                </div>
-            </div>
-
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
-                <img src="./img/hamb2.jpeg" alt="">
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Duketo burger</h3>
-                    <div class="price">$1.500</div>
-                    <a href="#" class="btn">Pedir</a>
-                </div>
-            </div>
-
-            <div class="box" data-aos="fade-up" data-aos-delay="450">
-                <img src="./img/hamb5.jpeg" alt="">
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Duketo burger</h3>
-                    <div class="price">$1.500</div>
-                    <a href="#" class="btn">Pedir</a>
-                </div>
-            </div>
-
-            <div class="box" data-aos="fade-up" data-aos-delay="600">
-                <img src="./img/hamb4.jpg" alt="">
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Duketo burger</h3>
-                    <div class="price">$1.500</div>
-                    <a href="#" class="btn">Pedir</a>
-                </div>
-            </div>
-
-            <div class="box" data-aos="fade-up" data-aos-delay="750">
-                <img src="./img/hamb4.jpg" alt="">
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Duketo burger</h3>
-                    <div class="price">$1.500</div>
-                    <a href="#" class="btn">Pedir</a>
-                </div>
-            </div>
-
-            <div class="box" data-aos="fade-up" data-aos-delay="900">
-                <img src="./img/hamb4.jpg" alt="">
-                <div class="content" data-aos="fade-up" data-aos-delay="450">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Duketo burger</h3>
-                    <div class="price">$1.500</div>
-                    <a href="#" class="btn">Pedir</a>
-                </div>
-            </div>
-        </div>
 
 
     </section>
@@ -198,9 +210,8 @@
         </div>
         <div class="content" data-aos="fade-left" data-aos-delay="300">
             <h3 class="titulo">Nueva hamburguesa hecha por Duki</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, nihil autem modi inventore nobis ipsum,
-                rerum blanditiis adipisci voluptas impedit nulla est qui perferendis sint distinctio deserunt fuga
-                maiores soluta?</p>
+            <p> Nueva Tasty Hulk, esta vez tuvimos el privilegio de contar con la ayuda de Duki para inventar esta hamburguesa. Recargada de mucho Cheddar con Barbacoa y un ingrediente secreto que solo la casa sabe.
+            </p>
             <div class="icons">
                 <h3><i class="fas fa-check"></i> Mejor precio</h3>
                 <h3><i class="fas fa-check"></i> Mejor sabor</h3>
@@ -208,6 +219,7 @@
                 <h3><i class="fas fa-check"></i> Pan casero de papa</h3>
                 <h3><i class="fas fa-check"></i> Queso de la casa</h3>
                 <h3><i class="fas fa-check"></i> Opciones veggie/sin tacc</h3>
+                <h3><i class="fas fa-check"></i> Ingredientes de la casa</h3>
             </div>
             <a href="#" class="btn">Leer mas</a>
         </div>
@@ -221,16 +233,16 @@
 
     <section class="rws" id="rws">
         <div class="hdg">
-            <img src="./img/1-slide-1686691847195-21419680-7303050551feb12efbf4f04cc6265f531686691851-1920-1920.webp" alt="">
-            <h3>Kidd Keo</h3>
+            <img src="./img/1-slide-1686691847195-21419680-7303050551feb12efbf4f04cc6265f531686691851-1920-1920.webp"
+                alt="">
         </div>
 
         <div class="box-container">
             <div class="caja" data-aos="fade-up" data-aos-delay="150">
-                <img src="./img/Truenito.webp" alt="">
-                <h3>Tureno pai</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi aperiam harum laboriosam
-                    cupiditate reiciendis nostrum ipsa architecto hic laudantium.
+                <img src="./img/queve.jpg" alt="">
+                <h3>Quevedo</h3>
+                <p>
+                    Excelente servicio! Pedi una hamburguesa y a los 10 minutos estaba en la puerta de mi casa. Ahora a dar el show bien lleno.
                 </p>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -243,9 +255,10 @@
 
             <div class="caja" data-aos="fade-up" data-aos-delay="300">
                 <img src="./img/Truenito.webp" alt="">
-                <h3>Tureno pai</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi aperiam harum laboriosam
-                    cupiditate reiciendis nostrum ipsa architecto hic laudantium.</p>
+                <h3>Trueno</h3>
+                <p>
+                    Muy piola la hamburguesa del duko, si no te ensucias con esa no comes bien! Muy hermoso el lugar y muy buena atencion.
+                </p>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -256,10 +269,11 @@
             </div>
 
             <div class="caja" data-aos="fade-up" data-aos-delay="450">
-                <img src="./img/Truenito.webp" alt="">
-                <h3>Tureno pai</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi aperiam harum laboriosam
-                    cupiditate reiciendis nostrum ipsa architecto hic laudantium.</p>
+                <img src="./img/mbcr.jpg" alt="">
+                <h3>Maria Becerra</h3>
+                <p>
+                    Muy lindo ambiente y pasan musica alegre. De los pocos lugares donde me senti realmente comoda, RECOMENDADISIMO!
+                </p>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -270,10 +284,10 @@
             </div>
 
             <div class="caja" data-aos="fade-up" data-aos-delay="500">
-                <img src="./img/Truenito.webp" alt="">
-                <h3>Tureno pai</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi aperiam harum laboriosam
-                    cupiditate reiciendis nostrum ipsa architecto hic laudantium.
+                <img src="./img/babo.jpg" alt="">
+                <h3>Benito</h3>
+                <p>
+                    Muy rica carne, Argentina tiene de las mejores hamburguesas del planeta, y la Tasty Hulk es una de ellas.
                 </p>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -286,133 +300,131 @@
         </div>
 
     </section>
-   <!--Reseñas end-->
+    <!--Reseñas end-->
 
-   <!--contact init-->
 
-   <section class="contacto" id="contacto">
+    <section id="index-section-5" class="vh-100 flex-center">
+        <h3>Nosotros sabemos lo que es bueno</h3>
+    </section>
 
-    <div class="hdg">
-        <img src="./img/rgf.avif" alt="">
-        <h3>Contactate wacho</h3>
-    </div>
 
-    <div class="row">
-        <iframe data-aos="fade-up" data-aos-delay="150" class="ubi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9922594409077!2d-58.39279646053306!3d-34.780970166992596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3e00bf01711%3A0xb19fb5cd1ade49e6!2sSalsa%20Brava!5e0!3m2!1ses-419!2sar!4v1688569570979!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!--contact init-->
 
-        <div class="mariño">
+    <section class="contacto" id="contacto">
 
-            <div class="icons-container">
+        <div class="row">
+            <iframe data-aos="fade-up" data-aos-delay="150" class="ubi"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9922594409077!2d-58.39279646053306!3d-34.780970166992596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3e00bf01711%3A0xb19fb5cd1ade49e6!2sSalsa%20Brava!5e0!3m2!1ses-419!2sar!4v1688569570979!5m2!1ses-419!2sar"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                <div class="dibus" data-aos="fade-up" data-aos-delay="150">
-                    <i class="fas fa-map"></i>
-                    <h3>Nuestra ubi perro llegale</h3>
-                    <p>Profesor Mariño 1635</p>
+            <div class="mariño">
+
+                <div class="icons-container">
+
+                    <div class="dibus" data-aos="fade-up" data-aos-delay="150">
+                        <i class="fas fa-map"></i>
+                        <h3>Sucursal Principal</h3>
+                        <p>Av. Almte. Brown 3829</p>
+                    </div>
+
+                    <div class="dibus" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-envelope"></i>
+                        <h3> Mail : </h3>
+                        <p>Salsabrava2023@gmail.com</p>
+                    </div>
+
+                    <div class="dibus" data-aos="fade-up" data-aos-delay="450">
+                        <i class="fas fa-phone"></i>
+                        <h3> Whatsapp </h3>
+                        <p>1122394122</p>
+                    </div>
+
                 </div>
 
-                <div class="dibus" data-aos="fade-up" data-aos-delay="300">
-                    <i class="fas fa-envelope"></i>
-                    <h3> Mail : </h3>
-                    <p>Salsabrava2023@gmail.com</p>
-                </div>
-
-                <div class="dibus" data-aos="fade-up" data-aos-delay="450">
-                    <i class="fas fa-phone"></i>
-                    <h3> Manda un wpp </h3>
-                    <p>1122394122</p>
-                </div>
+                <form action="">
+                    <input data-aos="fade-up" data-aos-delay="150" type="text" placeholder="full name" class="box">
+                    <input data-aos="fade-up" data-aos-delay="300" type="Email" placeholder="email" class="box">
+                    <input data-aos="fade-up" data-aos-delay="450" type="number" placeholder="phone" class="box">
+                    <textarea data-aos="fade-up" data-aos-delay="600" name="" placeholder="message" class="box"
+                        cols="30" rows="10"></textarea>
+                    <a data-aos="fade-up" data-aos-delay="750" href="#" class="btn">Enviar comentario</a>
+                </form>
 
             </div>
-
-            <form action="">
-                <input data-aos="fade-up" data-aos-delay="150" type="text" placeholder="full name" class="box">
-                <input data-aos="fade-up" data-aos-delay="300" type="Email" placeholder="email" class="box">
-                <input data-aos="fade-up" data-aos-delay="450" type="number" placeholder="phone" class="box">
-                <textarea data-aos="fade-up" data-aos-delay="600" name="" placeholder="message" class="box" cols="30" rows="10"></textarea>
-                <a data-aos="fade-up" data-aos-delay="750" href="#" class="btn">Send Message</a>
-            </form>
 
         </div>
 
-    </div>
+    </section>
+    <!--contact end-->
 
- </section>
-<!--contact end-->
+    <!--blog init-->
 
-<!--blog init-->
-
-<section class="blogs" id="blogs">
-    <div class="hdg">
-        <img src="./img/keooo.jpeg" alt="">
-        <h3>Blogsito perrin</h3>
-    </div>
-
-    <div class="box-container">
-        <div class="box" data-aos="fade-up" data-aos-delay="450">
-            <div class="image">
-                <img src="/img/qqm.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"> 5st july, 2023</i></a>
-                    <a href="#"> <i class="fas fa-user"> by admin </i></a>
+    <section class="blogs" id="blogs">
+        <div class="box-container">
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="/img/qqm.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"> 12/12/2020</i></a>
+                        <a href="#"> <i class="fas fa-user"> Alta Pinta ph </i></a>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <h3>Belgrano</h3>
+                    <p>Todos los jueves 2x1 en fernet Branca. Nos encontras en la calle Juramento 1667 </p>
+                    <a href="https://www.google.com/maps/place/Puerta+Uno+Bar/@-34.5615513,-58.4762182,14z/data=!4m10!1m2!2m1!1sbares+belgrano!3m6!1s0x95bcb5cd3a76b6a1:0x6ea255a370959282!8m2!3d-34.5577406!4d-58.4496745!15sCg5iYXJlcyBiZWxncmFub1oQIg5iYXJlcyBiZWxncmFub5IBA2JhcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSNU5uVnFUWGhuUlJBQuABAA!16s%2Fg%2F1hc0rd47y?entry=ttu" class="btn">Ver ubicacion</a>
                 </div>
             </div>
-            <div class="contenido">
-                <h3>Belgrano</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, maiores!</p>
-                <a href="#" class="btn">Lee wachin</a>
-            </div>
-        </div>
 
-        <div class="box" data-aos="fade-up" data-aos-delay="350">
-            <div class="image">
-                <img src="/img/qqmm.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"> 5st july, 2023</i></a>
-                    <a href="#"> <i class="fas fa-user"> by admin </i></a>
+            <div class="box" data-aos="fade-up" data-aos-delay="350">
+                <div class="image">
+                    <img src="/img/qqmm.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"> 6/7/2023</i></a>
+                        <a href="#"> <i class="fas fa-user"> Alta Pinta ph </i></a>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <h3>Monte Grande</h3>
+                    <p>Inagurado el 23 de noviembre del año 2022 en la calle Cnel- Dorrego 128</p>
+                    <a href="https://www.google.com/maps/place/Barstow+Bar/@-34.816825,-58.4904105,15z/data=!4m10!1m2!2m1!1sbares+monte+grande!3m6!1s0x95bcd1642e1f925f:0x7694e43e6d6bdee!8m2!3d-34.816825!4d-58.4713561!15sChJiYXJlcyBtb250ZSBncmFuZGVaFCISYmFyZXMgbW9udGUgZ3JhbmRlkgEJZ2FzdHJvcHVimgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJOZDNKNllVdDNFQUXgAQA!16s%2Fg%2F11bxb9ty_7?entry=ttu" class="btn">Ver ubicacion</a>
                 </div>
             </div>
-            <div class="contenido">
-                <h3>Monte Grande</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, maiores!</p>
-                <a href="#" class="btn">Lee wachin</a>
-            </div>
-        </div>
 
-        <div class="box" data-aos="fade-up" data-aos-delay="450">
-            <div class="image">
-                <img src="/img/qqmmmm.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"> 5st july, 2023</i></a>
-                    <a href="#"> <i class="fas fa-user"> by admin </i></a>
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="/img/qqmmmm.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"> 3/6/2018</i></a>
+                        <a href="#"> <i class="fas fa-user"> Alta Pinta ph </i></a>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <h3>Temperley</h3>
+                    <p>Take away & delivery Av. Almte. Brown 3829</p>
+                    <a href="https://www.google.com/maps/place/Salsa+Brava/@-34.7809746,-58.3924156,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd3e00bf01711:0xb19fb5cd1ade49e6!8m2!3d-34.7809746!4d-58.3902269!16s%2Fg%2F11khbg2d74?entry=ttu" class="btn">Ver ubicacion</a>
                 </div>
             </div>
-            <div class="contenido">
-                <h3>Lomas de Zamora</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, maiores!</p>
-                <a href="#" class="btn">Lee wachin</a>
-            </div>
         </div>
-    </div>
-</section>
-<!--blog end-->
+    </section>
+    <!--blog end-->
 
-<section class="footer">
+    <section class="footer">
 
-    <div class="links">
-        <a href="#home" class="btn">home</a>
-        <a href="#menu" class="btn">menu</a>
-        <a href="#contacto" class="btn">contacto</a>
-        <a href="#home" class="btn">about</a>
-        <a href="#blogs" class="btn">blogs</a>
-        <a href="#rws" class="btn">Comentarios</a>
-    </div>
+        <div class="links">
+            <a href="#home" class="btn">Inicio</a>
+            <a href="#menu" class="btn">Menu</a>
+            <a href="#contacto" class="btn">Contacto</a>
+            <a href="#rws" class="btn">Reseñas</a>
+            <a href="#about" class="btn">Destacado</a>
+            <a href="#blogs" class="btn">Sucursales</a>
+        </div>
 
-    <p class="credit"> Creado por <span>Tobi Rodrigo</span> Todos los derechos estan reservados </p>
+        <p class="credit"> Creado por <span>Tobi Rodrigo</span> Todos los derechos estan reservados </p>
 
-</section>
+    </section>
 
-<!--footer init-->
-
+    <!--footer init-->
 
 
 
@@ -462,17 +474,23 @@
 
 
 
-<script src="js/script.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
 
-<script>
 
-AOS.init({
-    duration: 800,
-});
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+        });
+
+    </script>
 
 </body>
 
