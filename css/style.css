@@ -562,6 +562,12 @@ section {
     font-size: 2rem;
     margin-top: 2rem;
   }
+  .blogs .box-container {
+    display: grid;
+  }
+  .servicio {
+    display: grid;
+  }
   .header {
     justify-content: flex-end;
     gap: 2rem;
