@@ -625,6 +625,14 @@ section{
         align-items: center;
     }
 
+    .contacto .row .mariño .icons-container{
+        display: grid;
+    }
+
+    .rws .box-container{
+        display: grid;
+    }
+
     .header .logo img{
         width: 50px;
         height: 50px;
@@ -649,7 +657,7 @@ section{
     }
 
     .stars{
-        display: flex;
+        display:inline-block;
     }
 
     .blogs .box-container .box .contenido p {
