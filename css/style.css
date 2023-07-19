@@ -510,6 +510,181 @@ section {
   color: #eacf4f;
 }
 
+/*Menu*/
+.titlehb-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: url(../img/hbom.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 6rem 2rem;
+}
+
+.cont-hb h2 {
+  font-size: 10rem;
+  margin-bottom: 12px;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+.cont-hb p {
+  color: #aaa;
+  font-size: 1.1rem;
+  line-height: 30px;
+  margin-bottom: 27px;
+}
+
+.pedidos .row-pedidos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 100px;
+}
+.pedidos .row-pedidos .ubi {
+  flex: 1 1 40rem;
+}
+.pedidos .row-pedidos .mariño {
+  flex: 1 1 40rem;
+}
+.pedidos .row-pedidos .mariño .icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex: 1 1 17rem;
+  text-align: center;
+}
+.pedidos .row-pedidos .mariño .icons-container i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  background: #eacf4f;
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.pedidos .row-pedidos .mariño .icons-container h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.pedidos .row-pedidos .mariño .icons-container p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+}
+.pedidos .row-pedidos .mariño form {
+  text-align: center;
+}
+.pedidos .row-pedidos .mariño form .box {
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background: none;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  text-transform: none;
+  width: 100%;
+  margin: 0.7rem 0;
+}
+.pedidos .row-pedidos .mariño form .box:focus {
+  border-color: #eacf4f;
+}
+.pedidos .row-pedidos .mariño form .box textarea {
+  height: 15rem;
+  resize: none;
+}
+
+#sucurs {
+  margin-top: 100px;
+}
+
+.sucurs .box-container {
+  display: flex;
+  gap: 2rem;
+}
+.sucurs .box-container .box {
+  position: relative;
+}
+.sucurs .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.sucurs .box-container .box:hover .image .icons {
+  transform: translateY(0);
+}
+.sucurs .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+.sucurs .box-container .box .image .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transform: translateY(10rem);
+}
+.sucurs .box-container .box .image .icons a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.sucurs .box-container .box .image .icons a i {
+  padding-right: 0.5rem;
+  color: #eacf4f;
+}
+.sucurs .box-container .box .image .icons a:hover {
+  color: #123142;
+}
+.sucurs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.sucurs .box-container .box .contenido {
+  text-align: center;
+  padding: 2rem;
+}
+.sucurs .box-container .box .contenido h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.sucurs .box-container .box .contenido p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1.5rem;
+}
+
+.foooter {
+  text-align: center;
+  background: linear-gradient(transparent, #000);
+  margin-top: 100px;
+}
+.foooter .links a {
+  margin: 1rem;
+}
+.foooter .credit {
+  font-size: 2rem;
+  line-height: 2;
+  color: #aaa;
+  padding-top: 2rem;
+}
+.foooter .credit span {
+  color: #eacf4f;
+}
+
 /*Mobile*/
 @media (max-width: 546px) {
   html {
@@ -567,6 +742,12 @@ section {
     display: grid;
   }
   .servicio {
+    display: grid;
+  }
+  .pedidos .row-pedidos .mariño .icons-container {
+    display: grid;
+  }
+  .sucurs .box-container {
     display: grid;
   }
   .header {
