@@ -64,7 +64,7 @@ section {
 }
 .bmw:hover {
   color: #000;
-  background: #fff;
+  background: #aaa;
 }
 
 .header {
@@ -187,10 +187,6 @@ section {
 .container-fluid .bmw {
   background-color: #123142;
   color: lawngreen;
-}
-
-.bmw {
-  --bs-btn-hover-border-color: $amarillo ;
 }
 
 .servicio {
@@ -548,10 +544,10 @@ section {
 .pedidos .row-pedidos .ubi {
   flex: 1 1 40rem;
 }
-.pedidos .row-pedidos .mariño {
+.pedidos .row-pedidos .marino {
   flex: 1 1 40rem;
 }
-.pedidos .row-pedidos .mariño .icons-container {
+.pedidos .row-pedidos .marino .icons-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -559,7 +555,7 @@ section {
   flex: 1 1 17rem;
   text-align: center;
 }
-.pedidos .row-pedidos .mariño .icons-container i {
+.pedidos .row-pedidos .marino .icons-container i {
   height: 6rem;
   width: 6rem;
   line-height: 6rem;
@@ -569,21 +565,21 @@ section {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.pedidos .row-pedidos .mariño .icons-container h3 {
+.pedidos .row-pedidos .marino .icons-container h3 {
   padding: 1rem 0;
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
 }
-.pedidos .row-pedidos .mariño .icons-container p {
+.pedidos .row-pedidos .marino .icons-container p {
   font-size: 1.5rem;
   line-height: 2;
   color: #aaa;
 }
-.pedidos .row-pedidos .mariño form {
+.pedidos .row-pedidos .marino form {
   text-align: center;
 }
-.pedidos .row-pedidos .mariño form .box {
+.pedidos .row-pedidos .marino form .box {
   padding: 1.2rem 1.4rem;
   font-size: 1.6rem;
   color: #fff;
@@ -593,10 +589,10 @@ section {
   width: 100%;
   margin: 0.7rem 0;
 }
-.pedidos .row-pedidos .mariño form .box:focus {
+.pedidos .row-pedidos .marino form .box:focus {
   border-color: #eacf4f;
 }
-.pedidos .row-pedidos .mariño form .box textarea {
+.pedidos .row-pedidos .marino form .box textarea {
   height: 15rem;
   resize: none;
 }
@@ -750,6 +746,7 @@ section {
   text-align: center;
   padding-top: 100px;
   width: 50%;
+  background: none;
 }
 
 .input-group {
@@ -794,6 +791,32 @@ section {
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.formu .input-group .dibu {
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background: none;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  text-transform: none;
+  width: 100%;
+  margin: 0.7rem 0;
+}
+
+.formu .bmw {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  background: no-repeat;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.formu .bmw:hover {
+  color: #000;
+  background: #aaa;
 }
 
 /*Mobile*/
@@ -855,7 +878,7 @@ section {
   .servicio {
     display: grid;
   }
-  .pedidos .row-pedidos .mariño .icons-container {
+  .pedidos .row-pedidos .marino .icons-container {
     display: grid;
   }
   .sucurs .box-container {

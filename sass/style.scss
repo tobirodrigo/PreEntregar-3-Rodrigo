@@ -91,7 +91,7 @@ section{
 
     &:hover{
         color: $negro;
-        background: $blanco;
+        background: $light-color;
     }
 }
 
@@ -231,10 +231,6 @@ section{
         color: lawngreen;
     }
 }
-.bmw{
---bs-btn-hover-border-color: $amarillo
-}
-
 
 .servicio{
 
@@ -634,7 +630,7 @@ section{
             flex: 1 1 40rem;
         }
 
-        .mariño{
+        .marino{
             flex: 1 1 40rem;
 
             .icons-container {
@@ -858,7 +854,10 @@ section{
     text-align: center;
     padding-top: 100px;
     width: 50%;
+    background: none;
 }
+
+
 
 .input-group {
     display: flex;
@@ -904,8 +903,33 @@ section{
     text-decoration: none;
 }
 
+.formu .input-group .dibu{
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: none;
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    text-transform: none;
+    width: 100%;
+    margin: 0.7rem 0;
+}
 
-
+.formu {
+    .bmw{
+        display: inline-block;
+        margin-top: 1rem;
+        cursor: pointer;
+        color: #fff;
+        border: 0.2rem solid rgba(255, 255, 255, 0.3);
+        background: no-repeat;
+        font-size: 1.7rem;
+        padding: 1rem 3rem;
+        &:hover{
+            color: $negro;
+            background: $light-color;
+        }
+    }
+}
 
 
 
@@ -993,7 +1017,7 @@ section{
         display: grid;
     }
 
-    .pedidos .row-pedidos .mariño .icons-container {
+    .pedidos .row-pedidos .marino .icons-container {
         display: grid;
     }
 
