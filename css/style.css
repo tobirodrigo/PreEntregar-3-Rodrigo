@@ -314,6 +314,7 @@ section {
   font-size: 2.5rem;
   text-transform: uppercase;
   color: #fff;
+  color: #fff;
 }
 .about .content p {
   font-size: 1.5rem;
@@ -377,10 +378,10 @@ section {
 .contacto .row .ubi {
   flex: 1 1 40rem;
 }
-.contacto .row .mariño {
+.contacto .row .marino {
   flex: 1 1 40rem;
 }
-.contacto .row .mariño .icons-container {
+.contacto .row .marino .icons-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -388,7 +389,7 @@ section {
   flex: 1 1 17rem;
   text-align: center;
 }
-.contacto .row .mariño .icons-container i {
+.contacto .row .marino .icons-container i {
   height: 6rem;
   width: 6rem;
   line-height: 6rem;
@@ -398,21 +399,21 @@ section {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.contacto .row .mariño .icons-container h3 {
+.contacto .row .marino .icons-container h3 {
   padding: 1rem 0;
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
 }
-.contacto .row .mariño .icons-container p {
+.contacto .row .marino .icons-container p {
   font-size: 1.5rem;
   line-height: 2;
   color: #aaa;
 }
-.contacto .row .mariño form {
+.contacto .row .marino form {
   text-align: center;
 }
-.contacto .row .mariño form .box {
+.contacto .row .marino form .box {
   padding: 1.2rem 1.4rem;
   font-size: 1.6rem;
   color: #fff;
@@ -422,10 +423,10 @@ section {
   width: 100%;
   margin: 0.7rem 0;
 }
-.contacto .row .mariño form .box:focus {
+.contacto .row .marino form .box:focus {
   border-color: #eacf4f;
 }
-.contacto .row .mariño form .box textarea {
+.contacto .row .marino form .box textarea {
   height: 15rem;
   resize: none;
 }
@@ -604,6 +605,10 @@ section {
   margin-top: 100px;
 }
 
+.sucurs .tituulo div h1 {
+  font-size: 100px;
+}
+
 .sucurs .box-container {
   display: flex;
   gap: 2rem;
@@ -659,6 +664,7 @@ section {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
+  color: #fff;
 }
 .sucurs .box-container .box .contenido p {
   font-size: 1.5rem;
@@ -685,6 +691,33 @@ section {
   color: #eacf4f;
 }
 
+.titlehb-lll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: url(../img/hbom.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 6rem 2rem;
+}
+
+.cont-hb h2 {
+  font-size: 10rem;
+  margin-bottom: 12px;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+.cont-hb p {
+  color: #aaa;
+  font-size: 1.1rem;
+  line-height: 30px;
+  margin-bottom: 27px;
+}
+
 /*Mobile*/
 @media (max-width: 546px) {
   html {
@@ -697,7 +730,7 @@ section {
     justify-content: center;
     align-items: center;
   }
-  .contacto .row .mariño .icons-container {
+  .contacto .row .marino .icons-container {
     display: grid;
   }
   .rws .box-container {
