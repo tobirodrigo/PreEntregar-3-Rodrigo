@@ -52,7 +52,7 @@ section {
   color: #fff;
 }
 
-.btn {
+.bmw {
   display: inline-block;
   margin-top: 1rem;
   cursor: pointer;
@@ -62,7 +62,7 @@ section {
   font-size: 1.7rem;
   padding: 1rem 3rem;
 }
-.btn:hover {
+.bmw:hover {
   color: #000;
   background: #fff;
 }
@@ -88,7 +88,7 @@ section {
 .header .icons:hover {
   color: #eacf4f;
 }
-.header #menu-btn {
+.header #menu-bmw {
   display: none;
 }
 .header .navbar a {
@@ -172,7 +172,7 @@ section {
   width: 100%;
 }
 
-.container-fluid .card {
+.container-fluid .messi {
   background-color: #123142;
   border: none;
 }
@@ -184,12 +184,12 @@ section {
   color: rgba(255, 255, 255, 0.651);
   font-size: 15px;
 }
-.container-fluid .btn {
+.container-fluid .bmw {
   background-color: #123142;
   color: lawngreen;
 }
 
-.btn {
+.bmw {
   --bs-btn-hover-border-color: $amarillo ;
 }
 
@@ -718,6 +718,84 @@ section {
   margin-bottom: 27px;
 }
 
+.rsñ-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: url(../img/hbom.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 6rem 2rem;
+}
+
+.cont-rsñ h2 {
+  font-size: 10rem;
+  margin-bottom: 12px;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+.cont-rsñ p {
+  color: #aaa;
+  font-size: 2.5rem;
+  line-height: 30px;
+  margin-bottom: 27px;
+}
+
+.formu {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  width: 50%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formu h2 {
+  color: #fff;
+  font-size: 35px;
+}
+
+.formu label {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.formu input, textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  border: #aaa;
+  outline: none;
+}
+
+.formu input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+.form-txt {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.form-txt a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /*Mobile*/
 @media (max-width: 546px) {
   html {
@@ -752,7 +830,7 @@ section {
     align-items: center;
     justify-content: center;
   }
-  .btn {
+  .bmw {
     display: grid;
   }
   .stars {
@@ -791,7 +869,7 @@ section {
     transform: translateX(0);
     left: 3rem;
   }
-  .header #menu-btn {
+  .header #menu-bmw {
     display: inline-block;
   }
   .header .navbar {
