@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,35 +19,24 @@
 
     <!--Header init-->
 
-    <header class="header">
-
-        <div id="menu-bmw" class="fas fa-bars icons"></div>
-        <div id="search-bmw" class="fas fa-search icons"></div>
-
-        <nav class="navbar">
-
-            <a href="./index.html">Inicio</a>
-            <a href="./html/menu.html">Menu</a>
-            <a href="./html/pedidos.html">Pedidos</a>
+    <header>
+        <nav>
+            <a href="#">
+                <img class="logo" src="./img/icon.png" alt="logo">
+            </a>
+            <ul class="enlaces-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./html/menu.html">Menu</a></li>
+                <li><a href="./html/pedidos.html">Pedidos</a></li>
+                <li><a href="./html/reseñas.html">Reseñas</a></li>
+                <li><a href="./html/sucur.html">Sucursales</a></li>
+            </ul>
+            <button class="ham" type="button">
+                <span class="lm-1"></span>
+                <span class="lm-2"></span>
+                <span class="lm-3"></span>
+            </button>
         </nav>
-        <span class="#"></span>
-
-        <nav class="navbar">
-            <a href="./html/reseñas.html">Reseñas</a>
-            <a href="#about">Destacado</a>
-            <a href="./html/sucur.html">Sucursales</a>
-        </nav>
-
-        <a href="#" class="fas fa-shopping-cart icons"></a>
-
-        <a href="#" class="logo"><img src="./img/icon.png" alt="logo-local-hamburgueseria"></a>
-
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="Buscar Aqui" id="search-box">
-            <label for="" class="fas fa-search icons"></label>
-        </form>
-
-
     </header>
     <!--Header end-->
 
@@ -442,22 +432,24 @@
 
 
 
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+    });
+</script>
 
-    <script>
+</body>
 
-        AOS.init({
-            duration: 800,
-        });
+</html>
 
-    </script>
 
 </body>
 
