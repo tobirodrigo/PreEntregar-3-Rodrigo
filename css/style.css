@@ -796,130 +796,6 @@ section {
   background: #aaa;
 }
 
-/*Mobile*/
-/*   @media  (max-width:546px) {
-
-    html{
-        font-size: 55%;
-    }
-
-    .home .contenido h3{
-        font-size: 3rem;
-    }
-
-    .icons-container{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contacto .row .marino .icons-container{
-        display: grid;
-    }
-
-    .rws .box-container{
-        display: grid;
-    }
-
-    .header .logo img{
-        width: 50px;
-        height: 50px;
-    }
-
-    .header {
-        padding: 3rem;
-        gap: 0;
-    }
-
-    .rws .box-container{
-        gap: 1px;
-    }
-
-    .about .content .icons{
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .bmw{
-        display: grid;
-    }
-
-    .stars{
-        display:inline-block;
-    }
-
-    .blogs .box-container .box .contenido p {
-        font-size: 1rem;
-    }
-
-    .about .content p{
-        font-size: 1rem;
-    }
-
-    section{
-        padding: 3rem 2rem;
-    }
-
-    .header .icons {
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
-
-    .blogs .box-container{
-        display: grid;
-    }
-
-    .servicio{
-        display: grid;
-    }
-
-    .pedidos .row-pedidos .marino .icons-container {
-        display: grid;
-    }
-
-    .sucurs .box-container {
-        display: grid;
-    }
-
-    .header{
-        justify-content: flex-end;
-        gap: 2rem;
-
-        .logo{
-            transform: translateX(0);
-            left: 3rem;
-        }
-
-        #menu-bmw {
-            display: inline-block;
-        }
-
-        .navbar{
-            position: absolute;
-            top: 99%; left:0; right: 0;
-            background: $negro;
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            display: grid;
-
-
-
-            &.active {
-                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            }
-
-
-            a{
-                display: block;
-                margin: 3rem 2rem;
-                text-decoration: none;
-            }
-
-            .space {
-                display: none;
-            }
-        }
-    }
-} */
 @media (max-width: 768px) {
   body {
     overflow: hidden;
@@ -994,7 +870,7 @@ section {
     font-size: 3rem;
   }
   .icons-container {
-    display: flex; /* Adjusted alignment to flex */
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -1019,8 +895,8 @@ section {
     justify-content: center;
   }
   .bmw {
-    display: block; /* Adjusted display to block */
-    text-align: center; /* Centered text */
+    display: block;
+    text-align: center;
   }
   .stars {
     display: inline-block;
@@ -1032,7 +908,7 @@ section {
     font-size: 1rem;
   }
   section {
-    padding: 3rem 1rem; /* Adjusted horizontal padding */
+    padding: 3rem 1rem;
   }
   .header .icons {
     font-size: 2rem;
@@ -1040,7 +916,7 @@ section {
   }
   .blogs .box-container {
     display: grid;
-    gap: 1rem; /* Adjusted gap value */
+    gap: 1rem;
   }
   .servicio {
     display: grid;
@@ -1052,10 +928,10 @@ section {
     display: grid;
   }
   .header {
-    justify-content: space-between; /* Adjusted justify-content value */
-    align-items: center; /* Centered items vertically */
-    padding: 2rem; /* Adjusted padding value */
-    gap: 1rem; /* Adjusted gap value */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
   }
   .header .logo {
     transform: translateX(0);
@@ -1069,17 +945,17 @@ section {
     top: 100%;
     left: 0;
     right: 0;
-    background: #000; /* Replaced $negro with a color value */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Adjusted clip-path */
-    display: flex; /* Adjusted display to flex */
-    flex-direction: column; /* Stacked links vertically */
-    align-items: center; /* Centered items horizontally */
-    gap: 1rem; /* Adjusted gap value */
-    transform: scaleY(0); /* Initially hidden */
+    background: #000;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    transform: scaleY(0);
     transition: transform 0.3s ease-in-out;
   }
   .navbar.active {
-    transform: scaleY(1); /* Show when active */
+    transform: scaleY(1);
   }
   .navbar a {
     display: block;
@@ -1090,4 +966,4 @@ section {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
